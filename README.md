@@ -46,6 +46,17 @@ ecommerce-backend/
 - npm або yarn
 - PostgreSQL (версія 12+)
 
+```bash
+# Ініціалізуємо npm проєкт
+npm init -y
+
+# Встановлюємо основні залежності
+npm install express prisma @prisma/client bcryptjs jsonwebtoken cors helmet dotenv express-validator
+
+# Встановлюємо залежності для розробки
+npm install -D nodemon prisma
+```
+
 ### 1. Клонування репозиторію
 ```bash
 git clone <your-repo-url>
@@ -80,6 +91,7 @@ npm run db:seed
 
 ### 5. Запуск сервера
 ```bash
+
 # Розробка
 npm run dev
 
